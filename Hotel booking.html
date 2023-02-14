@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking</title>
+    <style>body{background-color:antiquewhite}</style>
+</head>
+<body>
+     <h2 style="text-align: center; ">Hotel Booking</h2>
+     <form>
+        <fieldset>
+            <legend>Hotel Booking</legend>
+            First Name:
+            <input type="text" name="first name">
+            Last Name:
+            <input type="text" name="last name">
+            <br><br>
+            Email:
+            <input type="email" name="email">
+            <br><br>
+            Room Type:
+            <select>
+                <option name="Room Type" value="Please select">Please Select</option>
+                <option name="Room Type" value="Standard Room">Standard Room(1 to 2 people)</option>
+                <option name="Room Type" value="Family Room">Family Room(1 to 4 people)</option>
+                <option name="Room Type" value="Private Room">Private Room(1 to 3 people)</option>
+                <option name="Room Type" value="Mix Dorm">Mix Dorm(6 people)</option>
+            </select>
+            No of Guest:
+            <input type="number" min="1" max="10" name="No of Guest">
+            <br><br>
+            Arrival Date & Time
+            <input type="datetime-local" name="Arrival Date & Time">
+            <br><br>
+            Departure Date & Time
+            <input type="datetime-local" name="Departure Date & Time">
+            <br><br>
+            Free Pickup?
+            <input type="radio" name="pickup" value="yes">Yes Please!-Pick me on my arrival.
+            <input type="radio" name="pickup" value="no">No Thanks-I'll make my own way there.
+            <br><br>
+            Flight Number:
+            <input type="text" name="flight no">
+            <br>
+            OR
+            <br>
+            Prn Number:
+            <input type="text" name="pnr">
+            <br><br>
+            <input type="submit">
+            <input type="reset">
+        </fieldset>
+     </form>
+</body>
+</html>
